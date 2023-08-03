@@ -1,0 +1,19 @@
+@media(min-width:520px){
+    .paisajes .contenedor{
+        grid-template-columns:repeat(2,50%);
+    }
+}
+
+
+
+ @media only screen and (max-width:500px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    .contenedor{
+        width: 50%
+    }
+}

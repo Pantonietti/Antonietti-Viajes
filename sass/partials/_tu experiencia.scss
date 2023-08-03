@@ -1,0 +1,9 @@
+.formularios{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    .nombre, .pais, .email, .enviar_comentarios{
+        display: flex;
+        flex-direction: column;
+    }  
+}

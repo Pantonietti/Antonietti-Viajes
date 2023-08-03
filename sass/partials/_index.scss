@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+
+main{
+    background-image: url(../medios/fondo\ main.jpg);
+    .encabezado{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            color: #E8630A;
+            font-family: Fredoka;
+        }
+        p{
+            color: #2B4353;
+        }
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+    .seccion_destacado_del_mes{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .card{
+            position: static;
+            text-align: center;
+            margin: 15px 0px 15px 0px;
+            justify-content: center;
+            .destacado_del_mes{
+                text-align: center;
+                text-decoration: underline;
+            }
+        }
+    }  
+    .ubicacion{
+        margin-bottom: 40px;
+    }
+}

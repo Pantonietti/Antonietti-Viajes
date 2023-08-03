@@ -1,0 +1,16 @@
+.formularios{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    .nombre, .pais, .email, .enviar_comentarios{
+        display: flex;
+        flex-direction: column;
+    }  
+}
+
+.formularios_aereos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 1000px 20px 20px;
+    padding-bottom: 200px;
+}

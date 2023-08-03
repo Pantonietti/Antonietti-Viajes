@@ -80,11 +80,6 @@ main{
     text-align: center;
     margin: 15px 0px 15px 0px;
     justify-content: center;
-
-}
-
-.oferta{
-    padding-top: 20px;
 }
 
 .ubicacion{
@@ -102,11 +97,6 @@ h1{
 h2{
     font-style: italic;
     font-family: Fredoka;
-    color: #E8630A;
-}
-
-.titulo_paquetes2{
-    font-style: italic;
     color: #E8630A;
 }
 
